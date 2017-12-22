@@ -225,7 +225,7 @@ if __name__ == "__main__":
         elif arg.startswith("apiKey="):
             apiKey = arg.split("=")[1]
     if not monitorFriendlyName or not monitorURL:
-        print "Usage: uptimerobot.py monitorFriendlyName=\"name\" monitorURL=\"www.url.com\""
+        print ("Usage: uptimerobot.py monitorFriendlyName=\"name\" monitorURL=\"www.url.com\"")
         sys.exit(1)
 
     if not apiKey:
